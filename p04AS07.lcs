@@ -1,0 +1,257 @@
+CA-Realia for CICS Ver:6.1.0002E:\mnal\CICS\p04AS07.BMS
+
+    1 P04AS09 DFHMSD TYPE=&SYSPARM,                                         C
+W **** Improper continuation syntax.
+    2               CTRL=(FREEKB),                                          C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+    3               LANG=COBOL,                                             C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+    4               MODE=INOUT,                                             C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+    5               STORAGE=AUTO,                                           C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+    6               TIOAPFX=YES
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+    7 MENUMAP DFHMDI SIZE=(24,80)
+    8         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+    9               INITIAL='---.SHARE MARKET.---',                         C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   10               LENGTH=20,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   11               POS=(1,30)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   12         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   13               INITIAL='***.BROKER MENU.***',                          C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   14               LENGTH=20,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   15               POS=(3,30)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   16         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   17               INITIAL='DATE :',                                       C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   18               LENGTH=6,                                               C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   19               POS=(1,15)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   20 DATE9   DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   21               INITIAL='          ',                                   CCA-Realia for CICS Ver:6.1.0002E:\mnal\CICS\p04AS07.BMS
+
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   22               LENGTH=10,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   23               POS=(1,22)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   24         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   25               INITIAL='TIME :',                                       C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   26               LENGTH=6,                                               C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   27               POS=(1,34)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   28 TIME9   DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   29               INITIAL='        ',                                     C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   30               LENGTH=8,                                               C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   31               POS=(1,42)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   32         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   33               INITIAL='1.  CREATE NEW ENTITY',                        C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   34               LENGTH=21,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   35               POS=(5,10)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   36         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   37               INITIAL='2.  INQUIRY FOR ENTITY',                       C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   38               LENGTH=22,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   39               POS=(7,10)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   40         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.CA-Realia for CICS Ver:6.1.0002E:\mnal\CICS\p04AS07.BMS
+
+S **** POS is a missing but required option
+   41               INITIAL='3.  REPORT FOR ENTITY',                        C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   42               LENGTH=21,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   43               POS=(9,10)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   44         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   45               INITIAL='4.  MY INQUIRY',                               C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   46               LENGTH=16,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   47               POS=(11,10)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   48         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   49               INITIAL='5.  MY REPORT',                                C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   50               LENGTH=13,
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   51               POS=(13,10)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   52 CHOICE  DFHMDF ATTRB=(UNPROT,BRT,IC,FSET),                            C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   53               INITIAL='_',                                            C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   54               HILIGHT=BLINK,                                          C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   55               COLOR=GREEN,                                            C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   56               LENGTH=1,                                               C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   57               POS=(16,10)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   58         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   59               INITIAL='ENTER YOUR CHOICE',                            C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.CA-Realia for CICS Ver:6.1.0002E:\mnal\CICS\p04AS07.BMS
+
+   60               LENGTH=17,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   61               POS=(12,13)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   62         DFHMDF ATTRB=(PROT,BRT,FSET),                                 C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   63               INITIAL='MESSAGE :',                                    C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   64               LENGTH=9,                                               C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   65               POS=(22,1)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   66 MSG9    DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   67               COLOR=RED,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   68               INITIAL='_______________________________________________C
+S **** Invalid MACRO name.
+E **** Missing correct value delimiter.
+E **** Option name not delimited by '='.
+   69               ___',                                                   C
+W **** Invalid Character ''' detected @ position 18.
+S **** Invalid MACRO name.
+   70               LENGTH=50,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   71               POS=(22,12)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   72         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   73               INITIAL='ENTER = PROCESS',                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   74               LENGTH=15,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   75               POS=(24,1)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   76         DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   77               INITIAL='PF3 = BACK',                                   C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   78               LENGTH=10,                                              C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.CA-Realia for CICS Ver:6.1.0002E:\mnal\CICS\p04AS07.BMS
+
+   79               POS=(24,19)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   80 DUMMY9  DFHMDF ATTRB=(PROT,BRT),                                      C
+W **** Improper continuation syntax.
+S **** POS is a missing but required option
+   81               LENGTH=1,                                               C
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   82               POS=(24,79)
+S **** Invalid MACRO name.
+E **** Option name not delimited by '='.
+   83         DFHMSD TYPE=FINAL
+      p04AS07 loaded with 1 MAPS, 0 FIELDS and 0 Bytes of Literals
+
+   84         END
+There were    20 (W) warning(s). Proceed with caution.
+There were    62 (E) error(s) in specific items.
+There were    80 (S) Fatal Error(s).
